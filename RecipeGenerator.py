@@ -8,7 +8,7 @@ from langchain_google_genai import GoogleGenerativeAI
 
 import streamlit as st
 
-api_key = 'AIzaSyAYBo-4MHpCX52dHjJv0rU_q1NIp0r0b_g'
+api_key = '-----' #I will not reveal API key here, but I have tested this app and it works with the API key.
 
 llm = GoogleGenerativeAI(model="models/text-bison-001", google_api_key=api_key, temperature=0.7)
 
