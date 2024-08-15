@@ -11,7 +11,7 @@ from langchain.chains.question_answering import load_qa_chain
 from langchain.prompts import PromptTemplate
 # API key configuration
 
-api_key = "AIzaSyAYBo-4MHpCX52dHjJv0rU_q1NIp0r0b_g"
+api_key = "---------------------------" #API key is hidden 
 
 genai.configure(api_key=api_key)
 
